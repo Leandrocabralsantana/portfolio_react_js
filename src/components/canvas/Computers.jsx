@@ -31,20 +31,6 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width:1000px)");
-    setIsMobile(mediaQuery.matches);
-    const handleMediaQueryChange = (event) =>{
-      setIsMobile(event.matches);
-    };
-    mediaQuery.addEventListener('change', handleMediaQueryChange);    
-
-  return() => {
-    mediaQuery.removeEventListener('change', handleMediaQueryChange);
-    }
-  }, [])
   return (
     <Canvas
       frameloop="demand"
@@ -57,9 +43,9 @@ const ComputersCanvas = () => {
           enableZoom={false} 
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          />
-          <Computers isMobile={isMobile}/>
-        </Suspense>
+        />
+        <Computers isMobile={isMobile}/>
+      </Suspense>
     </Canvas>
   );
 };
