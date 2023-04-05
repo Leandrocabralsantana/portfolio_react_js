@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    reactdeveloper,
+    datascience,
+    cdeveloper,
+    webdeveloper,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Desarrollador Web",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Science Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Desarrollador C",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Desarrollador UI/UX",
       icon: creator,
     },
   ];
@@ -116,55 +116,43 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Desarrollador Web HTML/CSS/JS",
+      company_name: "Proyecto independiente",
+      icon: webdeveloper,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Marzo 2022 - Mayo 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Durante el año 2022 realicé la primer parte del Bootcamp de Radium Rocket sobre desarrollo web, donde me adentré en HTML, CSS y Javascript básico, fue mi primer paso en mi proceso de formación en desarrollo.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Desarrollador C",
+      company_name: "Universidad Tecnológica Nacional",
+      icon: cdeveloper,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Junio 2022 - Diciembre 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "En Junio de 2022 comencé a cursar la Tecnicatura Universitaria en Programación, en la cual nos dedicamos integramente a desarrollar programas en C durante el primer semestre",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Desarrollador en Ciencia de Datos",
+      company_name: "Udemy",
+      icon: datascience,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Diciembre 2022 - Actualmente",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "En Diciembre de 2022 comencé a capacitarme en Udemy, en el cual además de aprender las bases de Python, comencé a utilizar las librerías de Numpy, Pandas y Matplotlib.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Desarrollador Web React JS",
+      company_name: "Independiente",
+      icon: reactdeveloper,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Marzo 2023 - Actualmente",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "En Marzo de 2023 comencé a capacitarme de forma autodidacta en React JS, utilizando tanto tutoriales de Youtube, como la documentación oficial, actualmente me encuentro desarrollando varios proyectos.",
       ],
     },
   ];
