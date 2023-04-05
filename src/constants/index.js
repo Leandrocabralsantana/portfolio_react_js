@@ -162,7 +162,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Pensé que era imposible que exista alguien tan genial, y apareció Leo y cambió el paradigma",
+        "Pensé que era imposible que exista alguien tan genial, y apareció Leo y cambió el paradigma.",
       name: "Leandro Andrés Fritzler",
       designation: "Fullstack Developer",
       company: "Globant",
@@ -170,7 +170,7 @@ import {
     },
     {
       testimonial:
-      "Conozco a Leandro hace muchísimo tiempo y es un apasionado de la vida. Su formación constante y su actitud proactiva para la resolución de problemas lo hacen un material humano invaluable para cualquier equipo de desarrollo de software. Es un profesional muy capaz",
+      "Conozco a Leandro hace muchísimo tiempo y es un apasionado de la vida. Su formación constante y su actitud proactiva para la resolución de problemas lo hacen un material humano invaluable para cualquier equipo de desarrollo de software.",
       name: "Claudio Caruzo",
       designation: "RPA Developer",
       company: "SerTIC Tech Solutions",
@@ -194,7 +194,7 @@ import {
    // },
     {
       testimonial:
-      "Leo siempre está dispuesto a aprender, pone lo mejor de él en cada proyecto, tenerlo en tu equipo de trabajo te garantiza responsabilidad y aprendizaje para el resto del equipo",
+      "Leo siempre está dispuesto a aprender, pone lo mejor de él en cada proyecto, tenerlo en tu equipo de trabajo te garantiza responsabilidad y aprendizaje para el resto del equipo.",
       name: "Ivo Bertoni",
       designation: "Desarrollador Web Jr",
       company: "Kernel Informática",
