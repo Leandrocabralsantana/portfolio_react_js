@@ -29,6 +29,7 @@ import {
     claudiocaruzo,
     cintiaavendaño,
     ezequielespinosa,
+    notebook,
   } from "../assets";
   
   export const navLinks = [

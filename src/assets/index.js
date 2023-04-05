@@ -37,6 +37,7 @@ import claudiocaruzo from "./profilepics/claudiocaruzo.jpg";
 import cintiaavendaño from "./profilepics/cintiaavendaño.jpg";
 import ezequielespinosa from "./profilepics/ezequielespinosa.jpg";
 
+import notebook from "./backgroundimages/notebook.jpg";
 export {
   logo,
   backend,
@@ -72,4 +73,5 @@ export {
   cintiaavendaño,
   claudiocaruzo,
   ezequielespinosa,
+  notebook,
 };
