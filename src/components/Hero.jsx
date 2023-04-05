@@ -12,8 +12,8 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hola, soy <span className='text-[#915eff]'> Leandro Cabral Santana</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop 3D visuals, user interfaces and <br className="sm:block hidden" /> web applications
+          <h1 className={`${styles.heroHeadText} text-white`}>Hola, soy <span className='text-[#915eff]'> Leo Cabral Santana</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Desarrollador web en React.js y de Data Science, políglota (Español, inglés, japonés y alemán), amante de los jueguitos y el animé.   <br className="sm:block hidden" /> ¡Te invito a recorrer mi portfolio y a dejar cualquier recomendación que tengas en los form que están debajo! 
           </p>
         </div>
       </div>

@@ -4,21 +4,20 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    portfolio,
+    movieapp,
+    salesanalisis,
+    c,
+    python,
+    pandas,
+    excel,
+    mysql,
     reactdeveloper,
     datascience,
     cdeveloper,
@@ -28,15 +27,15 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Sobre mi",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Proyectos en desarrollo",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contacto",
     },
   ];
   
@@ -73,32 +72,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "C",
+      icon: c,
     },
     {
       name: "git",
@@ -111,6 +90,22 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "pandas",
+      icon: pandas,
+    },
+    {
+      name: "excel",
+      icon: excel,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
     },
   ];
   
@@ -186,30 +181,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mi primer portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Mi primer proyecto web, en el usé HTML, CSS y Javascript para crear un portfolio personal. Utilicé Vanilla Javascript para crear un menú interactivo que permite cambiar la paleta de colores de la página, así como un modo claro / oscuro",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: portfolio,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Movie App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Aplicación web generada en React, permite buscar películas y mostrar información sobre ellas. Utiliza la API de The Movie Database (TMDb).",
       tags: [
         {
           name: "react",
@@ -219,33 +214,33 @@ import {
           name: "restapi",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
+      image: movieapp,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Análisis de ventas",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Análisis de ventas de una empresa de venta de productos electrónicos, utilizando Python y Pandas.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "pandas",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "numpy",
           color: "pink-text-gradient",
         },
+        {
+          name: "matplotlib",
+          color: "blue-text-gradient",
+        },
       ],
-      image: tripguide,
+      image: salesanalisis,
       source_code_link: "https://github.com/",
     },
   ];

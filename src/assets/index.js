@@ -13,22 +13,21 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import c from "./tech/c.png";
+import python from "./tech/python.png";
+import pandas from "./tech/pandas.png";
+import excel from "./tech/excel.png";
+import mysql from "./tech/mysql.png";
 
 import reactdeveloper from "./company/react.png";
 import webdeveloper from "./company/webdeveloper.png";
 import cdeveloper from "./company/cdeveloper.png";
 import datascience from "./company/datascience.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio4.jpg";
+import movieapp from "./portfolio2.jpg";
+import salesanalisis from "./portfolio.jpg";
 
 export {
   logo,
@@ -45,18 +44,17 @@ export {
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  carrent,
-  jobit,
-  tripguide,
+  python,
+  excel,
+  mysql,
+  pandas,
+  portfolio,
+  movieapp,
+  salesanalisis,
   reactdeveloper,
   webdeveloper,
   cdeveloper,
   datascience,
+  c,
 };
