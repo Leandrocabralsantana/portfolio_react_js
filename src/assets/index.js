@@ -16,7 +16,7 @@ import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import c from "./tech/c.png";
 import python from "./tech/python.png";
-import pandas from "./tech/pandas.png";
+import pandas from "./tech/pandas.svg";
 import excel from "./tech/excel.png";
 import mysql from "./tech/mysql.png";
 
