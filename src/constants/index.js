@@ -22,6 +22,13 @@ import {
     datascience,
     cdeveloper,
     webdeveloper,
+    leandrofritzler,
+    ernestolondero,
+    ivobertoni,
+    gonzalodecastro,
+    claudiocaruzo,
+    cintiaavendaño,
+    ezequielespinosa,
   } from "../assets";
   
   export const navLinks = [
@@ -155,27 +162,51 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Pensé que era imposible que exista alguien tan genial, y apareció Leo y cambió el paradigma",
+      name: "Leandro Andrés Fritzler",
+      designation: "Fullstack Developer",
+      company: "Globant",
+      image: leandrofritzler,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Estoy impresionado con el trabajo de Leo en ReactJS. Su experiencia en el desarrollo de aplicaciones web es evidente en el código limpio y bien organizado que produce. Además, su capacidad para resolver problemas y encontrar soluciones creativas ha sido fundamental en el éxito de los proyectos en los que ha trabajado.",
+      name: "Claudio Caruzo",
+      designation: "RPA Developer",
+      company: "SerTIC Tech Solutions",
+      image: claudiocaruzo,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "El mejor primo del universo",
+      name: "Gonzalo de Castro",
+      designation: "Desarrollador Full Stack",
+      company: "Gloouds",
+      image: gonzalodecastro
+    },
+    {
+      testimonial:
+        "El mejor compañero de trabajo que tuve en la vida, sabe hacer de todo el hijo de puta",
+      name: "Ernesto Londero",
+      designation: "Desarrollador Full Stack",
+      company: "",
+      image: ernestolondero,
+    },
+    {
+      testimonial:
+      "Leo siempre está dispuesto a aprender, pone lo mejor de él en cada proyecto, tenerlo en tu equipo de trabajo te garantiza responsabilidad y aprendizaje para el resto del equipo",
+      name: "Ivo Bertoni",
+      designation: "Desarrollador Web Jr",
+      company: "Kernel Informática",
+      image: ivobertoni,
+    },
+    {
+      testimonial:
+        "Leo es una persona autodidacta, capaz de aprender rápidamente y con facilidad en casi cualquier ámbito. Además, es trabajador y disciplinado, siempre cumpliendo con los plazos y asegurándose de que el trabajo esté bien hecho; sería una gran adición a cualquier equipo de Desarrollo Web gracias a su habilidad para aprender rápidamente y su ética de trabajo",
+      name: "Ezequiel Espinosa",
+      designation: "Estudiante de la Tecnicatura en Programación",
+      company: "Universidad Tecnológica Nacional",
+      image: ezequielespinosa,
     },
   ];
   
@@ -183,7 +214,7 @@ import {
     {
       name: "Mi primer portfolio",
       description:
-        "Mi primer proyecto web, en el usé HTML, CSS y Javascript para crear un portfolio personal. Utilicé Vanilla Javascript para crear un menú interactivo que permite cambiar la paleta de colores de la página, así como un modo claro / oscuro",
+        "Mi primer proyecto web, en el usé HTML, CSS y Javascript para crear un portfolio personal. Utilicé Vanilla Javascript para crear un menú interactivo que permite cambiar la paleta de colores de la página, así como un modo claro/oscuro.",
       tags: [
         {
           name: "html",
@@ -199,7 +230,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Leandrocabralsantana/argentina_programa",
     },
     {
       name: "Movie App",
@@ -216,20 +247,20 @@ import {
         },
       ],
       image: movieapp,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Leandrocabralsantana/movie_app",
     },
     {
       name: "Análisis de ventas",
       description:
-        "Análisis de ventas de una empresa de venta de productos electrónicos, utilizando Python y Pandas.",
+        "Análisis de ventas de una empresa de venta de productos electrónicos, utilizando Python, Pandas, Numpy y Matplotlib.",
       tags: [
         {
           name: "python",
-          color: "blue-text-gradient",
+          color: "skyblue-text-gradient",
         },
         {
           name: "pandas",
-          color: "green-text-gradient",
+          color: "purple-text-gradient",
         },
         {
           name: "numpy",
@@ -237,11 +268,11 @@ import {
         },
         {
           name: "matplotlib",
-          color: "blue-text-gradient",
+          color: "yellow-text-gradient",
         },
       ],
       image: salesanalisis,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Leandrocabralsantana/pandas_projects",
     },
   ];
   

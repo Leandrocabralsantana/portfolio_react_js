@@ -29,6 +29,14 @@ import portfolio from "./portfolio4.jpg";
 import movieapp from "./portfolio2.jpg";
 import salesanalisis from "./portfolio.jpg";
 
+import leandrofritzler from "./profilepics/leandrofritzler.jpg";
+import ernestolondero from "./profilepics/ernestolondero.jpg";
+import ivobertoni from "./profilepics/ivobertoni.jpg";
+import gonzalodecastro from "./profilepics/gonzalodecastro.jpg";
+import claudiocaruzo from "./profilepics/claudiocaruzo.jpg";
+import cintiaavendaño from "./profilepics/cintiaavendaño.jpg";
+import ezequielespinosa from "./profilepics/ezequielespinosa.jpg";
+
 export {
   logo,
   backend,
@@ -57,4 +65,11 @@ export {
   cdeveloper,
   datascience,
   c,
+  leandrofritzler,
+  ernestolondero,
+  ivobertoni,
+  gonzalodecastro,
+  cintiaavendaño,
+  claudiocaruzo,
+  ezequielespinosa,
 };
