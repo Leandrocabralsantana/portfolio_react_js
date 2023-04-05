@@ -28,11 +28,13 @@ const Stars = (props) => {
 }
 
 const StarsCanvas = () => {
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <div className="w-full h-auto absolute inset-0 z-[-1]">
       <Canvas camera={{ position: [0, 0, 1]}}>
         <Suspense fallback={null}>
-          <Stars />
+      {!isMobile && <Stars />}
         </Suspense>
       </Canvas>
     </div>
