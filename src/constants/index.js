@@ -176,6 +176,22 @@ import {
       company: "SerTIC Tech Solutions",
       image: claudiocaruzo,
     },
+//    {
+//      testimonial:
+//        "El mejor primo del universo",
+//      name: "Gonzalo de Castro",
+//      designation: "Desarrollador Full Stack",
+//      company: "Gloouds",
+//      image: gonzalodecastro
+//    },
+//    {
+//      testimonial:
+//        "El mejor compañero de trabajo que tuve en la vida, sabe hacer de todo el hijo de puta",
+//      name: "Ernesto Londero",
+//      designation: "Desarrollador Full Stack",
+ //     company: "",
+  //    image: ernestolondero,
+   // },
     {
       testimonial:
       "Leo siempre está dispuesto a aprender, pone lo mejor de él en cada proyecto, tenerlo en tu equipo de trabajo te garantiza responsabilidad y aprendizaje para el resto del equipo",
@@ -184,14 +200,14 @@ import {
       company: "Kernel Informática",
       image: ivobertoni,
     },
-    {
-      testimonial:
-        "Leo es una persona autodidacta, capaz de aprender rápidamente y con facilidad en casi cualquier ámbito. Además, es trabajador y disciplinado, siempre cumpliendo con los plazos y asegurándose de que el trabajo esté bien hecho; sería una gran adición a cualquier equipo de Desarrollo Web gracias a su habilidad para aprender rápidamente y su ética de trabajo",
-      name: "Ezequiel Espinosa",
-      designation: "Estudiante de la Tecnicatura en Programación",
-      company: "Universidad Tecnológica Nacional",
-      image: ezequielespinosa,
-    },
+//    {
+  //    testimonial:
+    //    "Leo es una persona autodidacta, capaz de aprender rápidamente y con facilidad en casi cualquier ámbito. Además, es trabajador y disciplinado, siempre cumpliendo con los plazos y asegurándose de que el trabajo esté bien hecho; sería una gran adición a cualquier equipo de Desarrollo Web gracias a su habilidad para aprender rápidamente y su ética de trabajo",
+      //name: "Ezequiel Espinosa",
+      //designation: "Estudiante de la Tecnicatura en Programación",
+      //company: "Universidad Tecnológica Nacional",
+      //image: ezequielespinosa,
+   // },
   ];
   
   const projects = [
