@@ -170,27 +170,11 @@ import {
     },
     {
       testimonial:
-        "Estoy impresionado con el trabajo de Leo en ReactJS. Su experiencia en el desarrollo de aplicaciones web es evidente en el código limpio y bien organizado que produce. Además, su capacidad para resolver problemas y encontrar soluciones creativas ha sido fundamental en el éxito de los proyectos en los que ha trabajado.",
+      "Conozco a Leandro hace muchísimo tiempo y es un apasionado de la vida. Su formación constante y su actitud proactiva para la resolución de problemas lo hacen un material humano invaluable para cualquier equipo de desarrollo de software. Es un profesional muy capaz",
       name: "Claudio Caruzo",
       designation: "RPA Developer",
       company: "SerTIC Tech Solutions",
       image: claudiocaruzo,
-    },
-    {
-      testimonial:
-        "El mejor primo del universo",
-      name: "Gonzalo de Castro",
-      designation: "Desarrollador Full Stack",
-      company: "Gloouds",
-      image: gonzalodecastro
-    },
-    {
-      testimonial:
-        "El mejor compañero de trabajo que tuve en la vida, sabe hacer de todo el hijo de puta",
-      name: "Ernesto Londero",
-      designation: "Desarrollador Full Stack",
-      company: "",
-      image: ernestolondero,
     },
     {
       testimonial:
