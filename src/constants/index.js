@@ -171,7 +171,7 @@ import {
     },
     {
       testimonial:
-      "Conozco a Leandro hace muchísimo tiempo y es un apasionado de la vida. Su formación constante y su actitud proactiva para la resolución de problemas lo hacen un material humano invaluable para cualquier equipo de desarrollo de software.",
+      "Conozco a Leandro hace mucho tiempo y es un apasionado de la vida. Su formación constante y su actitud proactiva para la resolución de problemas lo hacen invaluable para cualquier equipo de desarrollo.",
       name: "Claudio Caruzo",
       designation: "RPA Developer",
       company: "SerTIC Tech Solutions",
