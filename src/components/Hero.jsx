@@ -1,17 +1,18 @@
 import { motion } from "framer-motion";
 
-import { styles } from '../style';
-import { ComputersCanvas } from './canvas';
+import { styles } from "../style";
 
 const Hero = () => {
   const isMobile = window.innerWidth <= 768;
 
   return (
-    <section className="relative w-full h-screen mx-auto">
-      <div className={`{styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
-        <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+    <section className="relative w-full mx-auto ">
+      <div
+        className={`{styles.paddingX} relative inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-15 mb-0`}
+      >
+        <div className="flex flex-col justify-center items-center mt-5 mb-0">
+          <div className="w-5 h-5 rounded-full bg-[transparent]" />
+          <div className="w-1 sm:h-80 h-40 bg-[transparent]" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hola, soy <span className='text-[#915eff]'> Leo Cabral Santana</span></h1>
@@ -39,9 +40,9 @@ const Hero = () => {
         </a>
 
       </div> */}
-    </section>
 
+    </section>
   );
 };
 
-export default Hero;
+export default Hero ;

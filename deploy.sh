@@ -14,6 +14,6 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-# git push -f git@github.com:Leandrocabralsantana/portfolio_react_js.git main:gh-pages
+git push -f git@github.com:Leandrocabralsantana/chillcode.git main:main
 
 cd -
