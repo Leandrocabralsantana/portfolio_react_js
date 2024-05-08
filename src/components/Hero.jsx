@@ -15,13 +15,13 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hola, soy <span className='text-[#915eff]'> Leo Cabral Santana</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 ${isMobile ? 'mt-20' : ''}`}>Desarrollador web en React.js y de Data Science, políglota (Español, inglés, japonés y alemán), amante de los jueguitos y el animé.   <br className="sm:block hidden" /> ¡Te invito a recorrer mi portfolio y a dejar cualquier recomendación que tengas en los form que están debajo! 
+          <p className={`${styles.heroSubText} mt-2 text-white-100 ${isMobile ? 'mt-0' : 'mt-50'}`}>Soy un desarrollador con 2 años de experiencia en programación, y una vida en el ámbito tecnológico. Si bien mi fortaleza actualmente es front (estuve a cargo de un equipo de 5 personas hasta hace pocos meses), también me desempeño excelentemente en el back. Tengo conocimientos de infraestructura, back, front, bases de datos, análisis de datos, CI/CD y control de versiones.   <br className="sm:block hidden" /> ¡Te invito a recorrer mi portfolio y a dejar cualquier recomendación que tengas en los form que están debajo! 
           </p>
         </div>
       </div>
-      {!isMobile && <ComputersCanvas />}
+      {!isMobile}
 
-      <div className={`absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center top-[${isMobile ? '440px' : '430px'}]`}>
+      {/* <div className={`absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center top-[${isMobile ? '440px' : '430px'}]`}>
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev
@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </a>
 
-      </div>
+      </div> */}
     </section>
 
   );
