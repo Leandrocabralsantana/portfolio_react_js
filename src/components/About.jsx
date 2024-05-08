@@ -48,10 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        Somos Leandro y Denise, dos desarrolladores web que decidimos unirnos
-        para crear un equipo de trabajo que nos permita desarrollar proyectos de
-        manera conjunta. Nuestro objetivo es brindar soluciones tecnológicas a
-        medida, que se adapten a las necesidades de cada cliente.
+        Soy un desarrollador con 2 años de experiencia en programación, y una vida en el ámbito tecnológico. Si bien mi fortaleza actualmente es el front (estuve a cargo de un equipo de 5 personas hasta hace pocos meses), también me desempeño excelentemente en el back. Tengo conocimientos de infraestructura, back, front, bases de datos, análisis de datos, CI/CD y control de versiones. 
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
